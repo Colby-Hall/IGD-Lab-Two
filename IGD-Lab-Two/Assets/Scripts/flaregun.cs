@@ -9,9 +9,7 @@ public class flaregun : MonoBehaviour {
 	public AudioClip flareShotSound;
 	public AudioClip noAmmoSound;	
 	public AudioClip reloadSound;	
-	public int bulletSpeed = 2000;
-    public int maxSpareRounds = 1000;
-	public int spareRounds = 1000;
+	public int bulletSpeed = 10000;
     public int currentRound = 1;
 	
 	
@@ -63,9 +61,12 @@ public class flaregun : MonoBehaviour {
 	
 	void Reload()
 	{
-			GetComponent<AudioSource>().PlayOneShot(reloadSound);			
-			GetComponent<Animation>().CrossFade("Reload");
+        if (currentRound < 1)
+        {
+            GetComponent<AudioSource>().PlayOneShot(reloadSound);
+            GetComponent<Animation>().CrossFade("Reload");
             currentRound += 1;
+        }
 		
 	}
 }

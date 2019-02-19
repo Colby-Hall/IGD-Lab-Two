@@ -1,8 +1,12 @@
 fileFormatVersion: 2
 guid: 3ba56d6fa111d7142b80a1ea3ce2d7b3
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - flareBurningSound: {instanceID: 0}
+  - tree: {fileID: 1335726306580732, guid: 23f312332b5cd5542ba196450880e89b, type: 3}
+  - deadTree: {fileID: 1879388732584624, guid: ba2b67dbc790eb74f8a401c592dd619f, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

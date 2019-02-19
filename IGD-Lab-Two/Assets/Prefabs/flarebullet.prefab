@@ -67,7 +67,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,6 +82,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flareTimer: 9
   flareBurningSound: {fileID: 8300000, guid: 0ed0d71c3db32c64aa047c6dc5794514, type: 3}
+  tree: {fileID: 0}
+  deadTree: {fileID: 0}
 --- !u!108 &10800000
 Light:
   m_ObjectHideFlags: 0
@@ -93,7 +95,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0.43448275, b: 0, a: 1}
-  m_Intensity: 2.61
+  m_Intensity: 1000
   m_Range: 110.69
   m_SpotAngle: 30
   m_CookieSize: 6.91
