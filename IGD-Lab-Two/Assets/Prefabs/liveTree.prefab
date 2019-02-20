@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 23929722689121438}
   - component: {fileID: 64815816450274640}
   - component: {fileID: 8103417992781273163}
+  - component: {fileID: 2484602160927568125}
+  - component: {fileID: 6733415603751956297}
   m_Layer: 0
   m_Name: liveTree
   m_TagString: Tree
@@ -110,3 +112,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2484602160927568125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335726306580732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6546364, y: 2.865251, z: 0.58137417}
+  m_Center: {x: -0.07997799, y: 1.4204676, z: -0.11614847}
+--- !u!65 &6733415603751956297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335726306580732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3949175, y: 3.7844057, z: 5.1690226}
+  m_Center: {x: -0.64264536, y: 5.1732535, z: -0.38919258}
